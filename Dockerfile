@@ -9,5 +9,7 @@ MAINTAINER qida <sunqida@foxmail.com>
 
 # Use APT (Advanced Packaging Tool) built in the Linux distro to download Java, a dependency
 # to run Minecraft.
+# Create mount point, and mark it as holding externally mounted volume
+VOLUME /data
 
 EXPOSE 25565
